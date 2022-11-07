@@ -1,3 +1,5 @@
+import SearchIcon from '@mui/icons-material/Search';
+import { Box, Button, TextField } from '@mui/material'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -12,6 +14,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div>
+          <Button variant='contained'>Hello World</Button>
+          <Box sx={{display: 'flex', alignItems: 'flex-end'}}>
+            <SearchIcon sx={{color: 'action.active', mr: 1, my: 0.5}}></SearchIcon>
+            <TextField label='Search' variant='standard'></TextField>
+          </Box>
+        </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
