@@ -2,6 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { Box, Button, TextField } from '@mui/material'
 import Head from 'next/head'
 import Image from 'next/image'
+import YoutubeCard from '../components/YoutubeCard';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <SearchIcon sx={{color: 'action.active', mr: 1, my: 0.5}}></SearchIcon>
             <TextField label='Search' variant='standard'></TextField>
           </Box>
+          <YoutubeCard></YoutubeCard>
         </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
