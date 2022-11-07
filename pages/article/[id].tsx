@@ -1,15 +1,19 @@
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Divider from '@mui/material/Divider';
+import Head from 'next/head';
 
 const AtricleID = () => {
 
     return (
         <div>
+            <Head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8863121170105656"
+                    crossOrigin="anonymous"></script>
+            </Head>
             <Box>
                 <Grid container spacing={1} direction={'row'}>
 
