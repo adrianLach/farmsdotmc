@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 
-const Atricle = () => {
+const YoutubeCard = () => {
 
     return (
         <div>
@@ -40,4 +40,4 @@ const Atricle = () => {
     )
 
 }
-export default Atricle
+export default YoutubeCard
